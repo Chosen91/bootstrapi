@@ -1,26 +1,55 @@
 body {
-    margin: 0;
+    margin: 0;	  
+    display: flex;	  
+    flex-direction: column;	  
+    align-items: center;	  
+    font-size: 18px;	  
+  }	
+  h1 {
+    font-size: 36x;	 
+    align-self: center;	  
+  }	
+  .api-section  {
+    width: 90%;	  
+    max-width: 900px;	  
+    padding: 24px;	 
+    border: 1px solid #999;	 
+    border-radius: 4px;	  
+    margin: 24px 24px 0;	 
+    display: flex;	 
+    flex-direction: column;	  
+  }	
+  .api-content {
+    font-weight: bold;	  
+    font-style: italic;	  
+    color: #999;	  
+  }	
+  #this-dog {
+   width: 650px;
+  }	
+  .card {
+ align-items: center;	  
+  }	
+  #weather-input-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-size: 18px;
-}
-
-h1 {
-    font-size: 36x;
-}
-
-.api-section {
-    width: 90%;
-    max-width: 900px;
-    padding: 24px;
-    border: 1px solid #999;
-    border-radius: 4px;
-    margin: 24px 24px 0;
-}
-
-.api-content {
-    font-weight: bold;
-    font-style: italic;
-    color: #999;
-}
+  }
+  .cloudy {
+    background-image: url("https://images.unsplash.com/photo-1534629938736-b1b076531d3b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8c3Vubnl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60;");
+  }
+  .sunny {
+    background-image: url("https://images.unsplash.com/photo-1571336321382-9b6fda2a2374?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTY2fHxzdW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  }
+  .windy {
+    background-image: url("https://images.unsplash.com/photo-1489011397388-494518edf378?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8a2l0ZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  }
+  .rainy {
+    background-image: url("https://images.unsplash.com/photo-1503429134808-fdf0cd4e1bfa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fHJhaW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  }
+  .snowy {
+    background-image: url("https://images.unsplash.com/photo-1489657246911-07a06ecf3e28?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fHNub3dpbmd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  }
+  #weather-api {
+    height: 550px;
+  }
+  
